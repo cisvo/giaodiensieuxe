@@ -1,0 +1,231 @@
+body{
+	margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
+}
+h5{
+    font-size: 13px;
+    color: #555555;
+}
+a{
+    color: #000;
+    text-decoration: none!important
+}
+.my-not-desktop a{
+    color: white
+}
+.btp{
+	background: red
+}
+.my-relative{
+    position: relative;
+}
+.my-absolute{
+    position: absolute
+}
+.my-left5per{
+    left: 4%
+}
+.btc{
+	background: yellow
+}
+.my-color-red{
+	color: #ef3232
+}
+.my-user>div:first-child div{
+       border: 1px solid #dadada;
+    margin-right: 10px;
+    padding: 5px 0
+          -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    --border-radius: 5px;
+    border-radius: 5px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{height: 35px;width: 35px}
+.my-martopbot1em{
+	margin: 1em auto;
+}
+.my-border{
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 1em
+}
+.my-marbot1em{
+	margin-bottom:1em;
+}
+.my-martop1em{
+	margin-top:1em;
+}
+.my-search>form>input{
+	transition: 0.4s all;
+	border: none;
+	padding: 5px;
+    outline:none
+}
+.my-search>form>button{
+	border: none;
+	background: none
+}
+.my-menu{
+	border: 1px solid #dbdbdb;
+	padding: 5px
+}
+li{
+	list-style: none
+}
+.my-list-menu{
+	padding: 0
+}
+.my-list-menu> ul li{
+	padding:10px 15px;
+	border-bottom: 1px solid #323232;
+	background-color: #444;
+	color: #fff
+}
+.my-list-menu> ul{
+	padding: 0;
+	margin: 0
+}
+.my-news-populars .my-border{
+    border: 1px solid #dadada;
+    margin-bottom: 1em
+}
+.my-news-popular h3{
+    font-size: 15px
+}
+.my-pad1em{
+    padding: 1em
+}
+.my-padtb1em{
+    padding: 1em 0
+}
+.my-cars {
+	display: flex;
+    min-height: 15em
+}
+.my-cars> div{
+	flex-basis: 50%;
+}
+.my-cars h2{
+    font-size: 16px
+}
+/*
+.my-cars> div img{
+	max-width: 80%
+}
+*/
+.my-cusor{
+    cursor: pointer
+}
+section{
+	margin-bottom: 2em
+}
+#home .my-news> div>div{
+	box-shadow: 0 2px 5px 3px #eff1f8;
+	margin:0 15px 1.5em 15px;
+    padding: 0 0 1em 0
+}
+.my-news> div{
+    padding: 0
+}
+.my-news>div> div> div:nth-child(2){
+    min-height: 11em;
+}
+.my-news-populars h2{
+	font-size: 20px
+}
+.my-top-line{
+    background: #272727;
+    height: 3px;
+    width: 45px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.my-top-line-title{
+    background: #272727;
+    height: 2px;
+    width: 90px;
+    margin: 0 auto  ;
+    margin-bottom: 25px;
+}
+/*
+.my-view-more.my-news> div> div:last-child{
+	border: 1px solid #000;
+	padding: 5px 10px;
+	margin: 1em;
+	text-align: center
+}
+*/
+.my-news> div> div div div:last-child{
+	font-size: 13px
+}
+.my-news> div> div h2{
+	font-size: 15px;
+    font-weight: 600;
+    margin: 10px auto
+}
+.my-news> div> div div div:first-child{
+	font-size:25px;font-weight:600
+}
+.my-blog-video img{
+	max-width: 100%;
+}
+.my-width100per{
+    width: 100%
+}
+.flip {
+  transform: rotateY(-180deg);
+}
+.transition{
+	-moz-transition: transform 0.9s;
+  -webkit-transition: transform 0.9s;
+  transition: transform 0.9s;
+opacity: 0.0;
+}
+#12{
+	-moz-transition: transform 0.9s;
+  -webkit-transition: transform 0.9s;
+  transition: transform 0.9s;
+}
+footer>div:last-child{
+    padding: 2em;
+    margin-top: 2em;
+    border-top: 1px solid #dadada
+}
+.my-get-news input{
+    background-color: #333333;
+    border: none;
+    padding: 1em;
+    width: 75%;
+  
+}
+.my-get-news div{
+    margin-left: 2em
+}
+.my-get-news button{
+    position: absolute;
+    padding: 1em;
+    background: #222222;
+    border:none;
+    color: #fff;
+}
+footer>div>div>div{
+    margin-bottom: 2em
+}
+div div img{
+    max-width: 100%
+}
+footer .my-show-flex{
+    display: flex;flex-wrap: wrap
+}
+footer .my-show-flex>div{
+    flex-basis: 30%;
+    margin:0 10px 10px 0
+}
+footer .my-fa div{
+    border: 1px solid #000;
+    padding: 5px 8px;
+    margin-right: 1em
+}

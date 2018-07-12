@@ -1,0 +1,93 @@
+cite:after{
+        content: "";
+    width: 20px;
+    height: 2px;
+    background: #000000;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 48.5%;
+}
+cite{
+   text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #666;
+    margin-bottom: 24px;
+    display: block;    
+}  
+.my-count-number-intro{
+    background-image: url("https://hstatic.net/379/1000109379/1000151833/bg_counter.jpg?v=529");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.62);
+    margin-top: 8em
+}
+.my-count-number-intro div div div div:first-child{
+    font-size: 60px;font-weight: 600  ;
+}
+
+.top-line{
+    height: 2px;
+    width: 90px;
+    margin: auto;
+    background: #000;
+    margin-top: 20px
+}
+@media (min-width: 992px) { 
+   .my-logo-intro{
+    position: absolute;
+    right: 10%;
+    top:35%
+}   
+    .my-div-bg-toolips{
+      position: absolute;top:100%;left: 0  ;
+        z-index: 2;
+        visibility: hidden;
+        animation: 0.02 all ease
+    }
+    .my-div-bg-toolips::before{
+        content: "";
+        position: absolute;
+        border-width: 5px;
+        border-color: transparent transparent black transparent;
+        border-style: dotted;
+        top: -10%;
+        left: 50%;
+    }
+    .my-visibility-intro:hover .my-div-bg-toolips{
+        visibility: visible;
+    }
+    .my-hover-info-intro{
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+    .my-hover-info-intro{
+        font-size: 15px;
+        color: white;
+        opacity: 0.7;
+        background: #000;    
+        display: none;
+        -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    }
+    .my-hover-info-intro .my-fa{
+        margin-left: 23%
+    }
+    .my-hover-info-intro .my-fa div{
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 5px;
+    }
+    .my-employee>div>div:hover:first-child .my-hover-info-intro{
+        display: block
+    }
+}
+    

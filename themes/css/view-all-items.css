@@ -1,0 +1,132 @@
+.my-banner-top{
+    background-image: url('../../images/page-banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: gainsboro;
+    height: 15em;
+    color: white;
+    padding-top: 3%
+}
+footer{
+    background-color: #efefef;
+}
+nav[aria-label="breadcrumb"] li, nav[aria-label="breadcrumb"] a{
+    color: white!important;
+    font-size: 16px;
+    font-weight: 600
+}
+.sapxeptheo::before {
+        content: "Lọc Theo:";
+        position: absolute;
+        right: 100%;
+    }
+.breadcrumb{
+    background-color: initial
+}
+.my-item-page-viewall{
+/*        box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+    margin-bottom: 2em;
+    float: left
+    } 
+.my-item-page-viewall .my-relative{
+    background-color: white
+}
+.my-item-page-viewall h3{
+        font-size: 1.2rem;
+    font-weight: 600
+}
+.my-item-page-viewall h5{
+    font: 13px;
+    opacity: 0.6
+}
+.my-item-page-viewall> div:last-child div{
+    border: 1px solid gray;
+    border-radius: 98px 98px 98px 98px;
+-moz-border-radius: 98px 98px 98px 98px;
+-webkit-border-radius: 98px 98px 98px 98px;
+    width: 60%;
+    padding: 5px;
+    margin: 1em auto;
+    color: #dd5209;
+    font-weight: 600;
+}
+.my-item-page-viewall>div:first-child>div{
+    display: none!important
+}
+.my-left-sidebar>div:first-child,.my-left-sidebar>div:last-child{
+    background-color: white
+}
+.my-left-sidebar>div:last-child li:last-child{
+    border-bottom: none
+}
+.my-left-sidebar>div:first-child ul li:last-child{
+    border-bottom: none;
+    padding: 1em 0 0 0.5em;
+}
+.my-left-sidebar>div:first-child> ul li ul>li:first-child{
+    border-top: 1px dotted #8b8a8a;
+    margin-top: 0.5em
+}
+.my-left-sidebar> div> ul li{
+    padding: 1em 0.5em;
+    border-bottom: 1px dotted #8b8a8a
+}
+.my-left-sidebar ul li:hover> a{
+    color: red
+}
+
+.my-left-sidebar>div div{
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 1em
+}
+.my-item-page-viewall>div:last-child{
+    border-top:1px solid #eaeaea;
+    padding: 1em 0;
+    background-color: white;
+}
+.my-left-sidebar ul{
+    padding: 10px
+}
+/* ===================media reponsive==============*/
+@media (min-width: 768px) { 
+    article>div:nth-child(2){
+    display: flex;
+        flex-wrap: wrap
+}
+    .my-item-page-viewall{
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 992px) { 
+   nav[aria-label="breadcrumb"]{
+    width: 25%;
+    margin: 0 auto;
+}
+
+ 
+.my-item-page-viewall>div:first-child>div{
+        position: absolute;
+        top: 0;
+        background: #000;
+        width: 100%;
+        height: 100%;
+   color: white;
+    opacity: 0.8;
+    padding-top: 25%;
+    padding-left:15%;
+    }
+    .my-item-page-viewall:hover .my-ll{
+    display: flex!important;
+    }     
+    .my-item-page-viewall>div:first-child>div div{
+        border: 1px solid white;
+        height: 2em;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+        
+    
+}
+
